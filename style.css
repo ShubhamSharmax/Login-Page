@@ -4,36 +4,36 @@
 }
 
 body{
-    
-
+    background: linear-gradient(90deg, aqua 0%, blue 100%) ;
+    display: flex;
+    justify-content: center;
 }
 
 
 .container{
-    margin-left: 38vw;
-    margin-top: 18vh;
-    height: 600px;
-    width: 300px;
-    padding: 40px 50px;
-    background-color: aqua;
+    margin-top: 8%;
+    height: 500px;
+    width: 350px;
+    padding: 30px 40px;
+    background: linear-gradient(90deg, blue 0%, aqua 10);
     border-radius: 50px;
+    box-shadow: 10px 10px 20px  rgba(255, 255, 255, 0.5), -10px -10px 20px rgba(0, 0, 0, 0.5);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center;*/
 }
 
 h2{
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.8rem;
     padding: 10px;
-    text-decoration-line: underline;
     color: white;
 }
 
 label{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: white;
-    padding: 10px;
+    padding: 5px;
 }
 
 input{
@@ -42,19 +42,19 @@ input{
     border: none;
     background-color: lightcyan;
     color: grey;
-    font-size: 1rem;
+    font-size: .8rem;
 }
 
 #showpass{
-    background-color: gray;
     height: 15px;
     width: 15px;
 }
 
+
 #sbtn{
     background-color: blue;
     padding: 20px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: white;
 }
 
@@ -80,8 +80,8 @@ p:hover{
 
 #rbtn{
     background-color: blue;
-    padding: 20px;
-    font-size: 1.5rem;
+    padding: 15px;
+    font-size: 1.2rem;
     color: white;
 }
 
