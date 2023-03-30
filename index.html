@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>User Login Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container" id="Login">
+        <h2>USER LOGIN</h2>  
+            <label for="uname">
+                Username : 
+            </label>
+            <input type="text" id="uname" placeholder="Enter Username">
+            <label for="pass">
+                Password :
+            </label>
+            <input type="password" id="pass" placeholder="Enter Password">
+            <label for="showpassword">
+                show password :
+                <input type="checkbox" onclick="showpass()">
+            </label>
+            <input type="button" id="sbtn" value="Submit" onclick="Login()">
+            <label>
+                <br>
+                New User?
+                <p onclick = "myFunction()">Signup</p>
+            </label>
+    </div>
+
+    <div class="container" id="Signup">
+        <h2>USER Registration</h2>  
+        <label for="uname">
+            Your Name :
+        </label>
+        <input type="text" id="name" placeholder="Enter Your Name">
+            <label for="uname">
+                Create Username : 
+            </label>
+            <input type="text" id="username" placeholder="Enter Username">
+            <label for="pass">
+                Create Password :
+            </label>
+            <input type="password" id="npass" placeholder="Create Password">
+            <label for="pass">
+                Confirm Password :
+            </label>
+            <input type="password" id="cpass" placeholder="Confirm Password">
+            <br>
+            <input type="button" id="rbtn" value="Register" onclick="Signup()">
+            <label>
+                <br>
+                Already Registered?
+                <p onclick = "myFunction1()">Login</p>
+            </label>
+    </div>
+
+</body>
+</html>

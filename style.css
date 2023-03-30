@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    
+
+}
+
+
+.container{
+    margin-left: 38vw;
+    margin-top: 18vh;
+    height: 600px;
+    width: 300px;
+    padding: 40px 50px;
+    background-color: aqua;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h2{
+    text-align: center;
+    font-size: 2rem;
+    padding: 10px;
+    text-decoration-line: underline;
+    color: white;
+}
+
+label{
+    font-size: 1.3rem;
+    color: white;
+    padding: 10px;
+}
+
+input{
+    padding: 10px;
+    border-radius: 40px;
+    border: none;
+    background-color: lightcyan;
+    color: grey;
+    font-size: 1rem;
+}
+
+#showpass{
+    background-color: gray;
+    height: 15px;
+    width: 15px;
+}
+
+#sbtn{
+    background-color: blue;
+    padding: 20px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+#sbtn:hover{
+    color: black;
+    background-color: white ;
+}
+
+p{
+    height: 20px;
+    width: 50px;
+    background-color: blue;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+p:hover{
+    color: black;
+    background-color: white ;
+}
+
+#rbtn{
+    background-color: blue;
+    padding: 20px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+#rbtn:hover{
+    color: black;
+    background-color: white ;
+}
+
+#Signup{
+    display: none;
+}
